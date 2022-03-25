@@ -1,0 +1,278 @@
+@charset "utf-8";
+
+	*{
+	margin:10;
+	padding:100;
+	border: none;
+	text-decoration:none;
+	list-style-type:none;
+	font-style: normal;
+	vertical-align: baseline;
+	}
+
+	body{
+	 background-color:#FFF;
+	/* background-image:url("/home/seemg/Área de Trabalho/ANA LUÍZA HTML/XHTML + CSS/aula 2/imagens/ocean.jpg");*/
+	 background-repeat: repeat; /*repeat, repeat-x, repeat-y*/
+ 	 background-position: center-top; /* left, right, center, top, bottom*/
+	 background-attachment:fixed;/* scroll*/
+	 background-size: 1200px 1100px; /* largura x altura*/
+	}	
+
+
+	#geral{
+	width: 1410px;
+	height:auto;
+	background-color: #FFF;
+	margin: 0 auto;
+	}
+	
+	#topo {
+	width: 1410px ;
+        height: 50px;
+	background-color: #000;
+	/*background-image:url("/home/seemg/Área de Trabalho/ANA LUÍZA HTML/XHTML + CSS/aula 2/imagens/beach.jpg");*/
+	opacity:50;
+	/*background-repeat: no-repeat;
+	margin-left: 15px; 
+	margin-top: 10px;*/
+	}
+	
+	#topo> h2{
+	color:#fff;
+	text-align:center;
+	padding: 10px 0 10px 0;
+	font-family:verdana, arial, times new roman;	
+	/*font-size:15px;*/
+	}
+
+	#menu {
+	float:left;
+	width: 1410px;
+   	height: 46px;
+	background-color: #FFF;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	/*background-image:url("/home/seemg/Área de Trabalho/ANA LUÍZA HTML/XHTML + CSS/aula 2/imagens/beach.jpg");*/
+	/*background-repeat: no-repeat;
+	margin-left: 15px; 
+	margin-top: 10px;*/
+	}
+
+	/*Início do menu animado*/
+	#menu ul{
+	margin:10;
+	padding:10;
+	}
+
+	#menu li{
+	margin:0;				/*MENU CSS RESET*/
+	padding:0;
+	list-style:none;
+	}
+
+	#menu a{
+	margin:0;
+	padding:0;
+	text-decoration:none;
+	}
+
+	#menu >ul >li{
+	/*display:inline; posicionar na horizontal*/
+	float:left;
+	margin-left:190px;
+	}
+	
+	#menu > ul > li > a{
+	color:#152233;
+	font-weight: bolder;
+	padding: 15px 15px
+	line-height:80px;
+	}
+	
+	#menu > ul > li > a:hover{
+	color:#FF0047;
+	border-bottom: 3px solid #000;
+	border-top: 3px solid #000;
+	background-color:#FFF;/*rgba(214, 0, 100, 0.6);*/
+	}
+
+	#conteudo1{				/*Div para Todo o conteudo referente a o cadastro*/
+	width: 1410px;
+  height: auto;
+	margin-top: 10px;
+}
+	#cad{						/*Div para texto Cadastro*/
+		width: 1410px;
+		height: 60px;
+		background-color:#000;
+		line-height: 33px;
+	}
+	#cad> h1{
+	color:#fff;
+	text-align:center;
+	padding: 10px 0 10px 0;
+	font-family:verdana, arial, times new roman;	
+	/*font-size:15px;*/
+	}
+	#fal{ 						/*Div para texto de fale sobre sua experiência*/
+		width: 1380px;
+		height: 50px;
+		background-color:#fff;
+		margin-top: 10px;
+		font-weight: bolder;
+		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+		border-radius:10px;/* Só funciona no Chrome*/
+		-moz-border-radius:10px;/* Firefox */
+		-webkit-border-radius:10px;/* I explore, EDGE*/
+	}
+	#fal > h1{
+	color:#000;
+	text-align:center;
+	padding: 10px 0 10px 0;
+	line-height:30px;
+	font-family:verdana, arial, times new roman;	
+	/*font-size:15px;*/
+}
+	#tudo{
+
+	width: 1350px;
+	height: 1200px;
+	margin-top: 15px;
+	margin-left: 15px;
+	margin-right: 15px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+		border-radius:10px;/* Só funciona no Chrome*/
+		-moz-border-radius:10px;/* Firefox */
+		-webkit-border-radius:10px;/* I explore, EDGE*/
+
+}
+	#img{
+	float: left;
+	width: 400px;
+	height: 300px;
+	margin-left: 15px;
+	margin-top: 15px;	
+	margin-bottom: 15px;
+	background: #FFF;
+	background-image: url("IMAGENS/pato.jpg");
+	background-size: 400px 300px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+		border-radius:10px;/* Só funciona no Chrome*/
+		-moz-border-radius:10px;/* Firefox */
+		-webkit-border-radius:10px;/* I explore, EDGE*/
+	}
+	
+	#nome{
+	float: left;
+	width: 900px;
+	height: 300px;
+	margin-left: 15px;
+	margin-top: 15px;	
+	margin-bottom: 15px;
+	background: #FFF;
+	background-repeat: no-repeat; /*repeat, repeat-x, repeat-y*/
+ 	background-position: center; /* left, right, center, top, bottom*/
+	background-image:url("BACKGROUNDS/back.jpg");
+	background-size: 900px 290px;
+	
+	}
+
+	#ori{
+
+	width: 1315px;
+	height: 700px;
+	margin-top: 15px;
+	margin-left: 15px;
+	background: #FFF;
+	line-height: 20px;
+	margin-bottom: 15px; clear: both;
+	
+	}
+	#ori > p {
+	color:#000;
+	text-align:justify;
+	padding: 20px;
+	font-family:verdana, arial, times new roman;
+	font-weight: bolder;
+	}
+	#ori > h3{
+	color:#000;
+	text-align:center;
+	padding: 20px;
+	font-family:verdana, arial, times new roman;
+	font-weight: bolder;
+	}
+	#conteudo {
+	width: 1380px;
+     height: 653px;
+	background-color: #FFFAFA;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+	
+	.texto{
+	float:left;
+	width:290px;
+	height:560px;
+	background-color:#FFFAFA;
+	margin-left:10px;
+	margin-top:10px;
+	margin-bottom: 10px;
+	padding: 10px;
+	}
+	.texto > h1{
+	color:#000;
+	text-align:center;
+	font-weight: bolder;
+	padding: 15px 15px
+	line-height:80px;
+	}
+	.texto > p{
+	color:#000;
+	text-align:center;
+	font-weight: normal;
+	padding: 15px 15px
+	line-height:80px;
+	}
+	  .figure {
+	  float: center;
+	  width: 80%;
+	  text-indent: 0;
+	  margin: 0.5em;
+	  padding: 0.5em;
+	}
+	.textoo > h3{
+	padding: 20px 0 5px 0;
+	text-indent:20px;
+	color:#000;
+	text-align:left;
+	font-weight: bolder;
+	padding: 15px 15px
+	line-height:80px;
+	}
+	.fff {
+	  float: center;
+	  width: 2%;
+	  text-indent: 0;
+	  margin: 0.5em;
+	  padding: 0.5em;}
+	
+	a{
+	font-size:18px;	
+	color: inherit;}
+
+
+	#Rodape{
+		width: 1380px;
+		height: 60px;
+		background: #000;
+		margin-top: 10px; clear: both;
+		margin-bottom: 10px;
+	}
+
+	#Rodape > p{
+	color:#FFF;
+	text-align:center;
+	font-weight: normal;
+	line-height:80px;
+	}
